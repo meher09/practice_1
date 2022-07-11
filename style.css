@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(image/background-image.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* .menu{
+    color: white;
+    background-color: black;
+    font-size: 10px;
+   
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 12px;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    color: white;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 12px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+
+nav ul li:hover {
+    color: red;
+    transition: .4s;
+    border: 1px white solid;
+    border-radius: 3px;
+    background-color: whitesmoke;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 50px;
+}
+
+.paragraph {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+
+.buttons {
+    padding: 15px;
+    color: red;
+    font-weight: 800;
+    font-size: 20px;
+    border: 2px white solid;
+    border-radius: 5px;
+
+}
+
+.buttons:hover {
+    color: white;
+    background-color: red;
+}
+
+
+.button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
